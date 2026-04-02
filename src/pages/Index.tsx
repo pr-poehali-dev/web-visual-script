@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import Calculator from "@/components/Calculator";
 
 const PALETTE = [
   { r: 255, g: 190, b: 61 },
@@ -364,6 +365,7 @@ export default function Index() {
 
         </div>
       </section>
+      <Calculator />
     </div>
   );
 }
